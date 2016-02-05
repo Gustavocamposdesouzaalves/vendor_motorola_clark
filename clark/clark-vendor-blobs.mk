@@ -280,6 +280,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:system/vendor/lib/libchromatix_ov5693_snapshot.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot_night.so:system/vendor/lib/libchromatix_ov5693_snapshot_night.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_video.so:system/vendor/lib/libchromatix_ov5693_video.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/clark/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
