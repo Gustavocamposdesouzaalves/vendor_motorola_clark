@@ -46,6 +46,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/clark/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/clark/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/motorola/clark/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
+    vendor/motorola/clark/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
+    vendor/motorola/clark/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
+    vendor/motorola/clark/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
+    vendor/motorola/clark/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
+    vendor/motorola/clark/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
     vendor/motorola/clark/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/motorola/clark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/clark/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
