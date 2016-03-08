@@ -158,8 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/clark/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/clark/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/clark/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -249,6 +247,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_common.so:system/vendor/lib/libchromatix_mot_imx230_common.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_common_ihdr.so:system/vendor/lib/libchromatix_mot_imx230_common_ihdr.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_mot_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx230_cpp_hfr_120.so \
@@ -282,8 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:system/vendor/lib/libchromatix_ov5693_snapshot.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_snapshot_night.so:system/vendor/lib/libchromatix_ov5693_snapshot_night.so \
     vendor/motorola/clark/proprietary/vendor/lib/libchromatix_ov5693_video.so:system/vendor/lib/libchromatix_ov5693_video.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/clark/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/clark/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
@@ -297,6 +295,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/clark/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/motorola/clark/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/motorola/clark/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
+    vendor/motorola/clark/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
@@ -556,6 +556,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/clark/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/motorola/clark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/clark/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
+    vendor/motorola/clark/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/clark/proprietary/lib64/libadropbox.so:system/lib64/libadropbox.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/motorola/clark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
