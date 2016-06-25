@@ -47,6 +47,12 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     SprintDM
 
+# Prebuilt libs needed for compilation
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libril
+
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
